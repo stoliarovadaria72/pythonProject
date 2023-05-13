@@ -1,5 +1,6 @@
-words = ["Маша", "играет", "с", "посудой"]
-long_string = ""
-for word in words:
-    long_string += word + " "
-print(long_string)
+s = ' '
+N=int(input('Введите кол-во слов '))
+for i in range(0,N):
+    word=input()
+    s=s + word + ' '
+print(s)
